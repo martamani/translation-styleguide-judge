@@ -1,0 +1,18 @@
+[
+  {
+    "segment": "S01",
+    "rule_id": "PACE-03",
+    "severity": "major",
+    "source_span": "Se tarda mucho en dominar la técnica, en entender cómo se comporta el barro.",
+    "target_span": "It takes a long time to master the technique and understand how the clay behaves.",
+    "note": "The target merged two clauses that were presented as distinct, measured thoughts, creating a faster, more flowing pace than the source."
+  },
+  {
+    "segment": "S01",
+    "rule_id": "PACE-03",
+    "severity": "major",
+    "source_span": "Incluso en distinguir cuándo una pieza está bien hecha y ver cómo, a base de práctica, las líneas se van afinando.",
+    "target_span": "Even just learning to tell when a piece is well-made and watching how, with enough practice, the lines become finer and cleaner.",
+    "note": "By merging the 'distinguishing' and 'watching' actions into one long, complex sentence, the target loses the fragmented, unhurried rhythm of the original."
+  }
+]

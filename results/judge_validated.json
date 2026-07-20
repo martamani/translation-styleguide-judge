@@ -1,0 +1,338 @@
+{
+  "violations": [
+    {
+      "segment": "S01",
+      "rule_id": "TERM-05",
+      "severity": "major",
+      "source_span": "aprendiendo cerámica en torno",
+      "target_span": "learning wheel-thrown pottery",
+      "note": "The styleguide explicitly details that 'Llevo dos años aprendiendo cerámica en torno' should be translated using the verbal form: 'I've been learning to throw on the wheel for two years'."
+    },
+    {
+      "segment": "S01",
+      "rule_id": "ACC-01",
+      "severity": "major",
+      "source_span": "las líneas se van afinando",
+      "target_span": "the lines become finer and cleaner",
+      "note": "The styleguide explicitly states that 'las líneas se van afinando' must be translated as 'the lines become more refined', and forbids 'finer and cleaner' to prevent adding an extra descriptive idea."
+    },
+    {
+      "segment": "S01",
+      "rule_id": "ACC-02",
+      "severity": "minor",
+      "source_span": "Incluso en distinguir",
+      "target_span": "Even just learning to tell",
+      "note": "The intensifier 'just' is added in the target translation but has no equivalent in the source Spanish text."
+    },
+    {
+      "segment": "S02",
+      "rule_id": "ACC-02",
+      "severity": "minor",
+      "source_span": "me encontré con un taller frente a la playa",
+      "target_span": "found a studio right across from the beach",
+      "note": "The translation adds the intensifier 'right', which is explicitly prohibited under rule ACC-02."
+    },
+    {
+      "segment": "S02",
+      "rule_id": "PACE-02",
+      "severity": "minor",
+      "source_span": "No tengo una vocación especial por esto, simplemente curiosidad.",
+      "target_span": "It’s not that I have a special calling for it; I was just curious.",
+      "note": "The translation uses a semicolon, which is prohibited under rule PACE-02."
+    },
+    {
+      "segment": "S03",
+      "rule_id": "FORMAT-04",
+      "severity": "minor",
+      "source_span": "servir para algo, ser bonito, y evocador",
+      "target_span": "useful, beautiful, and evocative",
+      "note": "The target contains a serial comma before 'and', which is forbidden under rule FORMAT-04."
+    },
+    {
+      "segment": "S03",
+      "rule_id": "PACE-04",
+      "severity": "minor",
+      "source_span": "transformarse en",
+      "target_span": "transform into",
+      "note": "As per PACE-04, plain words should be used; 'become' is preferred over 'transform into'."
+    },
+    {
+      "segment": "S03",
+      "rule_id": "ACC-01",
+      "severity": "minor",
+      "source_span": "que no es nada",
+      "target_span": "completely shapeless",
+      "note": "The translation adds the descriptive words 'completely shapeless' which are absent from the source."
+    },
+    {
+      "segment": "S03",
+      "rule_id": "ACC-02",
+      "severity": "minor",
+      "source_span": "puede servir para algo",
+      "target_span": "can actually be useful",
+      "note": "The intensifier 'actually' was added to the target but does not appear in the source."
+    },
+    {
+      "segment": "S04",
+      "rule_id": "TERM-01",
+      "severity": "major",
+      "source_span": "Tinajas",
+      "target_span": "Large jars",
+      "note": "According to the glossary, 'tinaja' must be translated as 'storage jar'. Additionally, adding 'Large' violates ACC-01."
+    },
+    {
+      "segment": "S04",
+      "rule_id": "TERM-01",
+      "severity": "major",
+      "source_span": "ollas",
+      "target_span": "pots",
+      "note": "According to the glossary, 'olla' must be translated as 'cooking pot'."
+    },
+    {
+      "segment": "S04",
+      "rule_id": "ACC-03",
+      "severity": "minor",
+      "source_span": "el batir",
+      "target_span": "clattering",
+      "note": "For the sound of ceramic pieces knocking together, the styleguide prescribes using 'knocking' or 'clacking' rather than 'clattering'."
+    },
+    {
+      "segment": "S05",
+      "rule_id": "PACE-02",
+      "severity": "major",
+      "source_span": "tradicionales, que tienen unas formas preciosas, y que evolucionen",
+      "target_span": "traditional pieces—which have beautiful shapes—and see them evolve",
+      "note": "The translation uses em dashes, which are explicitly forbidden by rule PACE-02."
+    },
+    {
+      "segment": "S05",
+      "rule_id": "FORMAT-01",
+      "severity": "minor",
+      "source_span": "colores",
+      "target_span": "colors",
+      "note": "The target uses US spelling 'colors' instead of UK-leaning 'colours' as required by FORMAT-01."
+    },
+    {
+      "segment": "S05",
+      "rule_id": "ACC-01",
+      "severity": "minor",
+      "source_span": "chocolatera",
+      "target_span": "traditional chocolate pot",
+      "note": "The adjective 'traditional' was added to 'chocolate pot', which is not in the source text."
+    },
+    {
+      "segment": "S05",
+      "rule_id": "ACC-01",
+      "severity": "minor",
+      "source_span": "colores",
+      "target_span": "colors now",
+      "note": "The word 'now' was added to the translation of 'colores', which is not in the source text."
+    },
+    {
+      "segment": "S08",
+      "rule_id": "FIX-02",
+      "severity": "minor",
+      "source_span": "Color:",
+      "target_span": "Color:",
+      "note": "The field label is fixed as 'Colour' in the styleguide. 'Color' is incorrect."
+    },
+    {
+      "segment": "S08",
+      "rule_id": "MEAS-03",
+      "severity": "minor",
+      "source_span": "x",
+      "target_span": "x",
+      "note": "Use the multiplication sign × instead of the letter x."
+    },
+    {
+      "segment": "S08",
+      "rule_id": "MEAS-06",
+      "severity": "minor",
+      "source_span": "14 cm de diámetro",
+      "target_span": "14 cm diameter",
+      "note": "The styleguide requires the pattern '10 cm in diameter' (including the preposition 'in')."
+    },
+    {
+      "segment": "S09",
+      "rule_id": "FIX-01",
+      "severity": "critical",
+      "source_span": "Resistente al calor. Puede usarse en el microondas y meterse en el lavavajillas, pero no debe ponerse directamente sobre el fuego.",
+      "target_span": "Heat resistant. Microwave and dishwasher safe, but do not place directly over an open flame.",
+      "note": "The target does not match the mandatory fixed care statement: 'Heat resistant. Microwave and dishwasher safe. Do not place on direct heat.'"
+    },
+    {
+      "segment": "S10",
+      "rule_id": "FORMAT-01",
+      "severity": "minor",
+      "source_span": "colores",
+      "target_span": "colors",
+      "note": "The target uses the US spelling 'colors' instead of the required UK/international spelling 'colours' specified in the styleguide."
+    },
+    {
+      "segment": "S11",
+      "rule_id": "TRAP-01",
+      "severity": "minor",
+      "source_span": "Cómo se hace",
+      "target_span": "process",
+      "note": "Following the TRAP-01 decision, the impersonal 'se' in the process description (including the title 'Cómo se hace') should be rendered using the imperative ('How to make it step by step') to maintain consistency and warmth, rather than turning it into a noun phrase ('process')."
+    },
+    {
+      "segment": "S12",
+      "rule_id": "TERM-01",
+      "severity": "major",
+      "source_span": "media caña de bambú",
+      "target_span": "bamboo half-round molding",
+      "note": "The glossary specifies that 'media caña de bambú' must be translated as 'bamboo rib'."
+    },
+    {
+      "segment": "S12",
+      "rule_id": "TRAP-01",
+      "severity": "major",
+      "source_span": "se amasa el barro, se hace una bola y se coloca sobre el torno. Se centra, se sube y se baja el barro, y se hace un agujero en el medio. Después se abre y se le da forma con las manos, y al final se afina",
+      "target_span": "the clay is wedged, shaped into a ball, and placed on the wheel. You center it, throw it up and down, and make a hole in the middle. Then you open it up, shape it with your hands, and finally refine it",
+      "note": "Per TRAP-01, process descriptions using the impersonal 'se' must be translated consistently using the imperative (e.g., 'Wedge the clay', 'Center it'). The translation incorrectly uses a mix of passive voice and 'you' pronouns."
+    },
+    {
+      "segment": "S13",
+      "rule_id": "TRAP-01",
+      "severity": "major",
+      "source_span": "se mete en el horno para bizcocharla, que significa una primera hornada para que quede dura. A continuación se esmalta o se le pone porcelana. Esto sirve para que pueda usarse, para que el agua no se filtre, y que no sea tóxica. Una pieza bizcochada es frágil y se rompe con facilidad, así que hay que meterla de nuevo en el horno",
+      "target_span": "it goes into the kiln for bisquing, which means a first firing to harden it. Next, it is glazed or coated in porcelain. This makes it usable, prevents water from seeping through, and ensures it's non-toxic. A bisque-fired piece is fragile and breaks easily, so it has to go back into the kiln",
+      "note": "The process description must consistently use the imperative form for impersonal 'se' verbs (e.g., 'put it in the kiln', 'glaze it or coat it') rather than the passive or descriptive voice."
+    },
+    {
+      "segment": "S13",
+      "rule_id": "TERM-01",
+      "severity": "major",
+      "source_span": "bizcocharla",
+      "target_span": "bisquing",
+      "note": "The glossary specifies that 'bizcochar' must be translated as 'to bisque fire' (e.g., 'to bisque fire it')."
+    },
+    {
+      "segment": "S13",
+      "rule_id": "FORMAT-04",
+      "severity": "minor",
+      "source_span": "usarse, para que el agua no se filtre, y que no sea tóxica.",
+      "target_span": "usable, prevents water from seeping through, and ensures",
+      "note": "The target uses a serial comma before the final conjunction, which violates the rule against using serial commas."
+    },
+    {
+      "segment": "S14",
+      "rule_id": "FORMAT-01",
+      "severity": "minor",
+      "source_span": "moldes",
+      "target_span": "molds",
+      "note": "Use international/UK spelling 'moulds' instead of the US spelling 'molds'."
+    },
+    {
+      "segment": "S15",
+      "rule_id": "TERM-03",
+      "severity": "major",
+      "source_span": "Cunca",
+      "target_span": "cunca (bowl)",
+      "note": "Galician terms like 'cunca' must be italicized and left unglossed in headings. The addition of the gloss '(bowl)' violates this rule."
+    },
+    {
+      "segment": "S16",
+      "rule_id": "FIX-02",
+      "severity": "minor",
+      "source_span": "Color:",
+      "target_span": "Color:",
+      "note": "The field label must be 'Colour' (UK spelling) as defined in the fixed strings list."
+    },
+    {
+      "segment": "S16",
+      "rule_id": "MEAS-03",
+      "severity": "minor",
+      "source_span": "x",
+      "target_span": "x",
+      "note": "Use the multiplication sign × instead of the letter x."
+    },
+    {
+      "segment": "S16",
+      "rule_id": "MEAS-06",
+      "severity": "minor",
+      "source_span": "13 cm de diámetro",
+      "target_span": "13 cm diameter",
+      "note": "Spanish 'de diámetro' must be rendered as 'in diameter' (i.e. '13 cm in diameter')."
+    },
+    {
+      "segment": "S17",
+      "rule_id": "FIX-01",
+      "severity": "critical",
+      "source_span": "Resistente al calor. Puede usarse en el microondas y meterse en el lavavajillas, pero no debe ponerse directamente sobre el fuego.",
+      "target_span": "Heat resistant. Microwave and dishwasher safe, but do not place directly over an open flame.",
+      "note": "The translated care statement must be byte-identical to the fixed string specified in the styleguide: 'Heat resistant. Microwave and dishwasher safe. Do not place on direct heat.'"
+    },
+    {
+      "segment": "S18",
+      "rule_id": "FORMAT-04",
+      "severity": "minor",
+      "source_span": ", y por último",
+      "target_span": ", and finally",
+      "note": "The serial comma before the final coordinating conjunction 'and' should be omitted according to the styleguide."
+    },
+    {
+      "segment": "S19",
+      "rule_id": "ACC-01",
+      "severity": "minor",
+      "source_span": "se usaba",
+      "target_span": "was traditionally used",
+      "note": "The word 'traditionally' was added to the translation, which is not present in the source text."
+    },
+    {
+      "segment": "S19",
+      "rule_id": "TERM-03",
+      "severity": "minor",
+      "source_span": "cunca",
+      "target_span": "cunca",
+      "note": "The Galician term 'cunca' should be italicized."
+    },
+    {
+      "segment": "S20",
+      "rule_id": "VOICE-01",
+      "severity": "minor",
+      "source_span": "puede usarse sin problema",
+      "target_span": "perfectly safe to use",
+      "note": "The target adds promotional reassurance and the intensifier 'perfectly' which is absent from the plain Spanish source 'puede usarse sin problema' ('can be used without issue')."
+    },
+    {
+      "segment": "S21",
+      "rule_id": "TERM-03",
+      "severity": "major",
+      "source_span": "Cunquelo",
+      "target_span": "cunquelo (small cup)",
+      "note": "According to TERM-03, Galician terms must be kept in italics and left unglossed in headings. The gloss '(small cup)' should be removed, and 'cunquelo' should be italicized as '*cunquelo*'."
+    },
+    {
+      "segment": "S23",
+      "rule_id": "FIX-01",
+      "severity": "major",
+      "source_span": "Resistente al calor. Puede usarse en el microondas y meterse en el lavavajillas, pero no debe ponerse directamente sobre el fuego.",
+      "target_span": "Heat resistant. Microwave and dishwasher safe, but do not place directly over an open flame.",
+      "note": "The target text does not match the mandatory fixed care statement: 'Heat resistant. Microwave and dishwasher safe. Do not place on direct heat.'"
+    },
+    {
+      "segment": "S24",
+      "rule_id": "TERM-03",
+      "severity": "minor",
+      "source_span": "cunquelo",
+      "target_span": "cunquelo",
+      "note": "Galician names for traditional vessels such as *cunquelo* must be kept in italics in the body text."
+    },
+    {
+      "segment": "S24",
+      "rule_id": "ACC-03",
+      "severity": "major",
+      "source_span": "antigua",
+      "target_span": "ancient",
+      "note": "The word 'ancient' does not collocate with a medieval pottery form. Use 'old' or 'old-fashioned' instead."
+    }
+  ],
+  "flagged": [],
+  "errors": [
+    "S22",
+    "S25",
+    "S26"
+  ]
+}
