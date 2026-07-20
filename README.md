@@ -52,6 +52,27 @@ notebook/        the Colab notebook that runs the judge
   shape and that rule IDs were real. It cannot tell whether a rule was *applied
   correctly* — that still needs a human.
 
+## Scope — what this is *not*
+
+Building the glossary is a solved problem. Dedicated terminology-extraction
+tools (Anchovy, Xbench, memoQ, and others) pull candidate terms from a corpus
+faster and more thoroughly than an LLM, and for that job they're the right tool.
+
+But the glossary is the *easy* part of a styleguide. This project is about the
+rest — the rules a term extractor can't produce or check:
+
+- **pace and rhythm** ("keep the calm, short-sentence tone")
+- **register and address** (the impersonal *se*, forms of "you")
+- **context-dependent terms** (*horno* = "kiln" in the studio, "oven" in the
+  care instructions — same word, decided by who owns the object)
+- **added meaning / omission** (did the translation say something the source
+  didn't?)
+
+And the actual experiment isn't building the styleguide at all — it's testing
+whether an LLM can **apply** a full styleguide to a translation, and finding
+where it breaks. Terminology extraction builds the rulebook; it doesn't referee
+the match.
+
 ## Takeaway
 
 An LLM judge is steady where the answer is objective, noisy where it needs
