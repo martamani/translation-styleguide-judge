@@ -31,7 +31,7 @@ notebook/        the Colab notebook that runs the judge
    - **pace / register** (rhythm, tone — judgment calls)
 3. Translated the source with DeepL, Google Translate, and Gemini.
 4. Scored the translations by hand, rule by rule (the human baseline).
-5. Built an LLM judge (Gemini API + Pydantic validation) to do the same
+5. Built an LLM judge to do the same
    automatically, and compared it to the human scores.
 
 ## What we found
