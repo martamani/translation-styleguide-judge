@@ -5,6 +5,7 @@ checking Spanish→English translations against a localization styleguide that t
 
 Built by someone from a localization background with no prior coding experience,
 with help from Claude for the reasoning and Gemini as the judge model.
+Canva presentation: https://canva.link/4t6rdzglbnscwo3
 
 ## The question
 
@@ -17,7 +18,7 @@ reviewer enforces?
 
 ```
 data/            Spanish source text + 3 machine translations (DeepL, Google, Gemini)
-styleguide/      the 40-rule Spanish→English styleguide, written for this text
+styleguide/      the 41-rule Spanish→English styleguide, written for this text
 results/         human scores + the LLM judge's output
 notebook/        the Colab notebook that runs the judge
 ```
@@ -77,6 +78,9 @@ the match.
 
 An LLM judge is steady where the answer is objective, noisy where it needs
 judgment. It extends a reviewer's reach; it doesn't replace their ear.
+The LLM "forgets" corrections.
+Loops to keep the style guide updated do not work. At least not fully.
+Claude tells me to keep on building on structured data and suggests to using embeddings to solve the problem, overcomplicating things.
 
 Also worth noting: several conclusions in this project were **wrong on the first
 pass** and corrected by testing — a "hallucinated" rule ID that turned out to be
