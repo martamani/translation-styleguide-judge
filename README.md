@@ -1,7 +1,7 @@
-# Can an LLM check whether a translation follows a styleguide?
+# Can an LLM check whether a translation follows a style guide?
 
 A small experiment testing where an LLM-based "judge" succeeds and fails at
-checking Spanish→English translations against a localization styleguide that the LLM generated and I checked.
+checking Spanish→English translations against a localization style guide that the LLM generated and I checked.
 
 Built by someone from a localization background with no prior coding experience,
 with help from Claude for the reasoning and Gemini as the judge model.
@@ -11,7 +11,7 @@ Canva presentation: https://canva.link/4t6rdzglbnscwo3
 
 LLMs are being used to check translation quality. But *quality* is
 vague. This project tests something specific and checkable: **does a translation
-follow a styleguide** — the terminology, register, and formatting rules a human
+follow a style guide** — the terminology, register, and formatting rules a human
 reviewer enforces?
 
 ## What's here
@@ -59,7 +59,7 @@ Building the glossary is a solved problem. Dedicated terminology-extraction
 tools (Anchovy, Xbench, memoQ, and others) pull candidate terms from a corpus
 faster and more thoroughly than an LLM, and for that job they're the right tool.
 
-But the glossary is the *easy* part of a styleguide. This project is about the
+But the glossary is the *easy* part of a style guide. This project is about the
 rest — the rules a term extractor can't produce or check:
 
 - **pace and rhythm** ("keep the calm, short-sentence tone")
